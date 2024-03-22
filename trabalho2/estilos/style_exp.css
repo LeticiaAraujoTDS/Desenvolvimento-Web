@@ -1,7 +1,7 @@
 body {
     background-color: #eeeeee;
     font-family: "Montserra", sans-serif;
-    letter-spacing: 1,5px;
+    letter-spacing: 1.5px;
     color: #444;
     width: 80%;
     margin: 0 auto;
@@ -40,7 +40,7 @@ section {
     border-top: solid 1px gray;
 }
 
-#fragmento {
+#fragmento h2 {
     border-top: none;
     border-collapse: collapse;
 }
@@ -53,11 +53,16 @@ section {
 }
 #perfil {
     color: rgb(140, 76, 8);
-    letter-spacing: 1, 5px;
+    letter-spacing: 1.5px;
     border-top: none;
 }
 p {
     font-family: "Montserra", sans-serif;
-    letter-spacing: 1, 5px;
+    letter-spacing: 1.5px;
     color: #444;
+}
+h2 {
+    color: rgb(140, 76, 8);
+    letter-spacing: 1.5px;
+    font-family: "Montserra", sans-serif;
 }
