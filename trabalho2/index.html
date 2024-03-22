@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo de Johnny Five</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style_index.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="imagens/johnny.jpg" alt="Avatar pessoal representado por robo." height="120" width="120">
-        </div>
-        <h1>Johnny Five</h1>
-        <hr>
-    </header>
-
     <main>
-        <div class="Perfil">
+        <section id="Perfil">
+            <img src="imagens/johnny.jpg" alt="Avatar pessoal representado por robo." height="150" width="200">
+            <h1>Johnny Five</h1>
+        </section>
+
+        <section id="caixas">
             <h2>Perfil</h2>
             <p>Sou um profissional visionário, dedicado a impulsionar os limites da exploração espacial e inspirar novas
                 gerações de cientistas e engenheiros.</p>
             <p>Minha experiência como um engenheiro aeroespacial em diversas empresas e diferentes projetos mostram como
                 sou dedicado no que faço. </p>
-            <hr>
-        </div>
+        </section>
 
-        <div class="Principais Competências">
+        <section id="caixas">
             <h2>Principais Competências</h2>
             <ul>
                 <li>Liderança e gestão de projetos;</li>
@@ -34,10 +36,9 @@
                 <li>Conhecimento em sistemas de propulsão convencionais e alternativos.</li>
                 <li>Experiência em testes de voo e análise de dados em ambiente aeroespacial.</li>
             </ul>
-            <hr>
-        </div>
+        </section>
 
-        <div class="Formação Acadêmica">
+        <section id="caixas">
             <h2>Formação Acadêmica</h2>
             <ul style="list-style: none;padding: 0;">
                 <li>Mestrado em Engenharia Aeroespacial na <a href="https://www.unifesp.br/"
@@ -53,10 +54,9 @@
                 <li>Bacharelado em Engenharia Mecânica com Ênfase em Aeroespacial na <a href="https://www.unicamp.br/"
                         target="_blank">Universidade Estadual de Campinas (UNICAMP)</a> - Campinas, Brasil (2006) </li>
             </ul>
-            <hr>
-        </div>
+        </section>
 
-        <div class="Esperiencia Profissional">
+        <section id="caixas">
             <h2>Experiência Profissional</h2>
             <ol>
                 <li>Engenheiro Aeroespacial - SpaceX (2020 - 2023)
@@ -86,22 +86,22 @@
                 <li><a href="experiencia.html" target="_blank">Veja as experiências profissionais em detalhes</a>
                 </li>
             </ul>
-            <hr>
-        </div>
+        </section>
 
-        <div class="Contato">
-            <div class="imagem">
-                <h2>Contato</h2>
+        <section id="contato">
+            <h2>Contato</h2>
+            <section id="cont">
                 <table style="padding: 0;">
-                    <tr>
-                        <td><img width="30" height="30" src='imagens/localizacao.png' alt="Ícone de localização"></td>
-                        <td>123, Rua da Inovação, Cidade do Futuro, Brasil</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+                <tr>
+                    <td><img width="30" height="30" src='imagens/localizacao.png' alt="Ícone de localização">
+                    </td>
+                    <td>123, Rua da Inovação, Cidade do Futuro, Brasil</td>
+                </tr>
+            </table>
+            </section>
+        </section>
 
-        <div class="imagem">
+        <section id="cont">
             <table>
                 <tr>
                     <td><img width="30" height="30" src='imagens/telefone.png' alt="Ícone de um telefone"></td>
@@ -112,9 +112,8 @@
                     </td>
                 </tr>
             </table>
-        </div>
-
-        <div class="imagem">
+        </section>
+        <section id="cont">
             <table>
                 <tr>
                     <td><img width="30" height="30" src='imagens/email.png' alt="Ícone de email"></td>
@@ -125,8 +124,8 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        <hr>
+        </section>
+        </section>
     </main>
 </body>
 
